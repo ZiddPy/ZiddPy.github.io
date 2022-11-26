@@ -227,7 +227,7 @@
 </li>
 </ul>
 <p><img src="/images/ohmyposh/1.gif"></p>
-<h3 id="Install-Oh-My-Posh"><a href="#Install-Oh-My-Posh" class="headerlink" title="Install Oh-My-Posh"></a>Install Oh-My-Posh</h3><h3 id="Install-Oh-My-Posh-1"><a href="#Install-Oh-My-Posh-1" class="headerlink" title="Install Oh My Posh"></a>Install Oh My Posh</h3><ul>
+<h3 id="Install-Oh-My-Posh"><a href="#Install-Oh-My-Posh" class="headerlink" title="Install Oh My Posh"></a>Install Oh My Posh</h3><ul>
 <li>Salin Command Berikut Ini Untuk Menginstall Oh My Posh</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install JanDeDobbeleer.OhMyPosh -s winget</span><br></pre></td></tr></table></figure>
@@ -244,7 +244,7 @@
 <h2 id="Merubah-Thema-Oh-My-Posh"><a href="#Merubah-Thema-Oh-My-Posh" class="headerlink" title="Merubah Thema Oh My Posh"></a>Merubah Thema Oh My Posh</h2><p>Mungkin Dari Kalian Ada Yang Ingin Mengubah Thema Dan Agar Tidak Bosan,<br>Nah Maka dari Itu Saya Akan Memberi Tutorial Bagimana Cara Merubah Thema Oh My Posh,<br>Dan Beruntungnya Oh My Posh Menyediakan Banyak Thema Untuk Terminal.</p>
 <p>Jika Ingin Melihat Thema Themanya Kalian Bisa Mengunjungi Webnya OhMyPosh Langsung Loh Ini Dia Website Nya Untuk Memilih Thema Kalian Sendiri <a target="_blank" rel="noopener" href="https://ohmyposh.dev/docs/themes">Oh-My-Posh</a></p>
 <p>Langsung Saja Ke Tutorialnya :</p>
-<ol>
+<ul>
 <li><p>Pilih Thema Kalian Lalu Download Kalian Di Oh My Posh </p>
 </li>
 <li><p>Lalu Klik Saja Thema nya Nanti Kalian Akan Di Arahkan Ke Github</p>
@@ -259,10 +259,28 @@
 </li>
 <li><p>lalu masukan command berikut</p>
 </li>
-</ol>
+</ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--config <span class="string">&#x27;C:\Users\ZiddPy\Documents\PowerShell\agnoster.omp.json&#x27;</span></span><br></pre></td></tr></table></figure>
 
 <p>taruh diantara pwsh dan | </p>
+<h3 id="Mengatur-icons-di-terminal"><a href="#Mengatur-icons-di-terminal" class="headerlink" title="Mengatur icons di terminal"></a>Mengatur icons di terminal</h3><p>Hmmmm, Mungkin ini opasional sih, jika kalian ingin mengatur icons di terminal agar lebih terlihat menarik<br>dan dipadukan dengan style oh-my-posh maka saya akan beri caranya</p>
+<ul>
+<li>pertama kalian install module terminal icons dahulu dengan cara masukan command berikut</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Install-Module -Name Terminal-Icons</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Lalu masukan command seperti berikut</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code <span class="variable">$PROFILE</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Setelah masuk di text editor kalian enter dua kali lalu masukan tulisan seperti berikut</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Import-Module -Name Terminal-Icons</span><br></pre></td></tr></table></figure>
+<p>setelah itu kalian save lalu restart terminal kalian</p>
+<p>boom jadi deh</p>
+<h2 id="Penutup"><a href="#Penutup" class="headerlink" title="Penutup"></a>Penutup</h2><p>Mungkin sebagai penutup saya ucapkan terimakasih sebesar besarnya karena sudah mau mampir di blog saya<br>kalau ada hal yang sulit di mengerti kalian boleh kok tanya tanya saya di facebook atau di whatsapp saya<br>mungkin sekian dari saya, ADIOSSSSS</p>
 
         </div>
 
@@ -290,6 +308,10 @@
                 <span>Tag(s):</span>
                 <span class="tag">
                     
+                    
+                        <a href="/tags/Customize/"># Customize</a>
+                    
+                        
                 </span>
             </div>
             <div>
