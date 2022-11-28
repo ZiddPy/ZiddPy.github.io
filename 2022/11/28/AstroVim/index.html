@@ -13,7 +13,7 @@
 
 
 
-<title>Cara Membuat Terminal Kalian Terlihat Keren | ZiddPy</title>
+<title>Cara Memasang Neovim Sebagai Text Editor | ZiddPy</title>
 
 
 
@@ -190,14 +190,14 @@
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Cara Membuat Terminal Kalian Terlihat Keren</h1>
+            <h1 class="post-title">Cara Memasang Neovim Sebagai Text Editor</h1>
             
                 <div class="post-meta">
                     
 
                     
                         <span class="post-time">
-                        Date: <a href="#">November 25, 2022&nbsp;&nbsp;18:44:37</a>
+                        Date: <a href="#">November 28, 2022&nbsp;&nbsp;15:58:29</a>
                         </span>
                     
                     
@@ -206,81 +206,74 @@
         </header>
 
         <div class="post-content">
-            <h2 id="Apa-itu-PowerShell"><a href="#Apa-itu-PowerShell" class="headerlink" title="Apa itu PowerShell?"></a>Apa itu PowerShell?</h2><h3 id="Pengertian-PowerShell"><a href="#Pengertian-PowerShell" class="headerlink" title="Pengertian PowerShell"></a>Pengertian PowerShell</h3><p>PowerShell merupakan jenis command line interface yang dan sebuah teknik pemrograman berorientasi objek untuk sistem operasi Windows.</p>
-<p>PowerShell banyak digunakan oleh para administrator yang setiap hari selalu berurusan dengan Windows Server dalam melakukan berbagai pengaturan jaringan untuk server yang berbasis Windows. PowerShell menyediakan fitur API atau Application Program Interface. yang bisa diakses oleh aplikasi yang lainnya.</p>
-<p>Perlu Anda ketahui bahwa PowerShell merupakan sebuah produk keluaran dari .NET Framework yang bisa dijalankan oleh beberapa tipe sistem operasi. Produk ini kemudian akan menghasilkan keluaran atau output berformat .net dan .text.</p>
-<p><a target="_blank" rel="noopener" href="https://www.nesabamedia.com/pengertian-powershell/">sumber</a></p>
+            <h3 id="Apa-Itu-Neovim"><a href="#Apa-Itu-Neovim" class="headerlink" title="Apa Itu Neovim"></a>Apa Itu Neovim</h3><p>Mengutip dari website <a target="_blank" rel="noopener" href="https://neovim.io/">https://neovim.io</a>, neovim merupakan editor ekstensi<br>dari vim, dan mendukung backward compatibility dengan editor vim.<br>Neovim saat ini aktif dalam pengembangan dan memiliki roadmap yang terencana.<br>Apa beda vim dengan neovim? Neovim adalah vim yang di-refactor dan beberapa plugin default tambahan.</p>
+<p><a target="_blank" rel="noopener" href="https://udnpico.medium.com/editor-neovim-untuk-coding-sehari-hari-apakah-lebih-efektif-254888af2f8e">sumber</a></p>
 <h3 id="Persiapan"><a href="#Persiapan" class="headerlink" title="Persiapan"></a>Persiapan</h3><ul>
-<li>NIAT</li>
-<li>Install <a target="_blank" rel="noopener" href="https://apps.microsoft.com/store/detail/9N0DX20HK701?hl=en-sg&gl=SG">Terminal</a> Versi Terbaru</li>
-<li>Font <a target="_blank" rel="noopener" href="https://www.nerdfonts.com/font-downloads">Nerd</a></li>
+<li>Install <a target="_blank" rel="noopener" href="https://github.com/neovim/neovim/wiki/Installing-Neovim">Neovim</a></li>
 <li>Install <a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git</a></li>
 <li>Install <a target="_blank" rel="noopener" href="https://nodejs.org/en/download/">Node.js</a></li>
-<li>Text Editor “Bebas Apa Saja”</li>
 </ul>
-<h2 id="Tahap-Install"><a href="#Tahap-Install" class="headerlink" title="Tahap Install"></a>Tahap Install</h2><h3 id="Pengaturan-font"><a href="#Pengaturan-font" class="headerlink" title="Pengaturan font"></a>Pengaturan font</h3><ul>
-<li><p>Buka lah terminal </p>
-</li>
-<li><p>Lalu pergi ke pengaturan &gt; default &gt; apperence</p>
-</li>
-<li><p>Silahkan atur fontnya</p>
-</li>
+<h3 id="Tahap-Instalasi-Neovim"><a href="#Tahap-Instalasi-Neovim" class="headerlink" title="Tahap Instalasi Neovim"></a>Tahap Instalasi Neovim</h3><ul>
+<li>Install Terlebih Dahulu Neovim Dengan Cara Masukan Command Di Terminal Seperti Berikut</li>
 </ul>
-<p><img src="/images/ohmyposh/1.gif"></p>
-<h3 id="Install-Oh-My-Posh"><a href="#Install-Oh-My-Posh" class="headerlink" title="Install Oh My Posh"></a>Install Oh My Posh</h3><ul>
-<li>Salin Command Berikut Ini Untuk Menginstall Oh My Posh</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install JanDeDobbeleer.OhMyPosh -s winget</span><br></pre></td></tr></table></figure>
-
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install Neovim.Neovim</span><br></pre></td></tr></table></figure>
 <ul>
-<li>Setelah Itu Kalian Ketik Command Untuk Mengkonfigurasi Oh My Posh</li>
+<li>Jika Sudah Kalian Bisa Melihat Versi Neovim kalian Dengan Ketik Command Seperti Berikut</li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code <span class="variable">$PROFILE</span></span><br></pre></td></tr></table></figure>
-<p>Setelah Itu</p>
-<p>masukan kode berikut di text editor kalian </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">oh-my-posh init pwsh | Invoke-Expression</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvim -v</span><br></pre></td></tr></table></figure>
 
-<p>Setelah Itu Save Dan Tutup Terminal Dan Buka Kembali Terminal Kalian</p>
-<h2 id="Merubah-Thema-Oh-My-Posh"><a href="#Merubah-Thema-Oh-My-Posh" class="headerlink" title="Merubah Thema Oh My Posh"></a>Merubah Thema Oh My Posh</h2><p>Mungkin Dari Kalian Ada Yang Ingin Mengubah Thema Dan Agar Tidak Bosan,<br>Nah Maka dari Itu Saya Akan Memberi Tutorial Bagimana Cara Merubah Thema Oh My Posh,<br>Dan Beruntungnya Oh My Posh Menyediakan Banyak Thema Untuk Terminal.</p>
-<p>Jika Ingin Melihat Thema Themanya Kalian Bisa Mengunjungi Webnya OhMyPosh Langsung Loh Ini Dia Website Nya Untuk Memilih Thema Kalian Sendiri <a target="_blank" rel="noopener" href="https://ohmyposh.dev/docs/themes">Oh-My-Posh</a></p>
-<p>Langsung Saja Ke Tutorialnya :</p>
-<ul>
-<li><p>Pilih Thema Kalian Lalu Download Kalian Di Oh My Posh </p>
+<p>maka akan muncul tulisan seperti berikut :</p>
+<p><img src="/images/s/1.PNG"></p>
+<h3 id="Tahap-Instalasi-Git"><a href="#Tahap-Instalasi-Git" class="headerlink" title="Tahap Instalasi Git"></a>Tahap Instalasi Git</h3><ul>
+<li><p>masuk ke website <a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git</a> </p>
 </li>
-<li><p>Lalu Klik Saja Thema nya Nanti Kalian Akan Di Arahkan Ke Github</p>
+<li><p>setelah itu klik download</p>
 </li>
-<li><p>Lalu Klik Raw Setelah Masuk Kalian Klik CTRL + S untuk download file .json tersebut</p>
+<li><p>pilihlah file tergantung versi komputer&#x2F;laptp kalian misalnya 32bit pilihlah 32-bit jika 64bit pilihlah 64-bit</p>
 </li>
-<li><p>setelah di download kalian taruh bebas di mana saja “Saya Akan Menyontohkan, Saya Akan Taruh Di Folder WindowsPowerShell” contoh: “C:\Users\ZiddPy\Documents\PowerShell”</p>
-</li>
-<li><p>Setelah itu copy file location tersebut contoh: “C:\Users\ZiddPy\Documents\PowerShell\agnoster.omp.json”<br>“agnoster.omp.json” adalah nama file thema oh my posh yang telah kita download tadi</p>
-</li>
-<li><p>lalu buka file “Microsoft.PowerShell_profile.ps1”</p>
-</li>
-<li><p>lalu masukan command berikut</p>
+<li><p>bisa juga kalian menggunakan command untuk menginstall git nya</p>
 </li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--config <span class="string">&#x27;C:\Users\ZiddPy\Documents\PowerShell\agnoster.omp.json&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<p>taruh diantara pwsh dan | </p>
-<h3 id="Mengatur-icons-di-terminal"><a href="#Mengatur-icons-di-terminal" class="headerlink" title="Mengatur icons di terminal"></a>Mengatur icons di terminal</h3><p>Hmmmm, Mungkin ini opasional sih, jika kalian ingin mengatur icons di terminal agar lebih terlihat menarik<br>dan dipadukan dengan style oh-my-posh maka saya akan beri caranya</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install --id Git.Git -e --source winget</span><br></pre></td></tr></table></figure>
 <ul>
-<li>pertama kalian install module terminal icons dahulu dengan cara masukan command berikut</li>
+<li>jika sudah cek lah seperti biasa dengan cara masuk terminal dan masukan command seperti berikut</li>
 </ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Install-Module -Name Terminal-Icons</span><br></pre></td></tr></table></figure>
-
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git -v</span><br></pre></td></tr></table></figure>
+<p>maka akan muncul tulisan seperti berikut</p>
+<p><img src="/images/s/2.PNG"></p>
+<h3 id="Tahap-Instalasi-NodeJs"><a href="#Tahap-Instalasi-NodeJs" class="headerlink" title="Tahap Instalasi NodeJs"></a>Tahap Instalasi NodeJs</h3><ul>
+<li><p>download <a target="_blank" rel="noopener" href="https://nodejs.org/en/download/">Node.js</a> terlebih dahulu</p>
+</li>
+<li><p>jika sudah install seperti biasa </p>
+</li>
+<li><p>jika sudah terinstall jangan lupa kalian configurasi di enviroment variable<br>bagimana carenya?</p>
+<ol>
+<li>kalian masuklah terlebih dahulu ke file exploler</li>
+<li>pilih This Pc</li>
+<li>Lalu tekan properties</li>
+<li>lalu pilih Advanced system settings </li>
+<li>lalu pilih enviroment variable </li>
+<li>lalu kalian pilih PATH bagian atas dan bawah kalian “keduanya”</li>
+<li>lalu pilih edit dan new </li>
+<li>masukan location di mana kalian menginstall nodejs nya</li>
+<li>biasanya berada di “C:\Program Files\nodejs”</li>
+<li>masukan variable di atas tersebut “Taruh di kedua PATH tersebut diatas dan di bawah”</li>
+<li>lalu apply dan oke</li>
+</ol>
+</li>
+<li><p>cek kembali dengan mengetik command seperti di atas</p>
+</li>
+</ul>
+<p> jika sudah maka tampilan akan seperti ini:</p>
+<p> <img src="/images/s/3.PNG"></p>
+<h3 id="Install-AstroVim"><a href="#Install-AstroVim" class="headerlink" title="Install AstroVim"></a>Install AstroVim</h3><p> Astrovim adalah modifikasi dari neovim tapi memiliki dan fungsi yang lebih menarik<br> dari pada neovim seperti biasanya.</p>
+<p> tidak usah berlama lama kita lanjut saja ke tuorialnya :</p>
 <ul>
-<li>Lalu masukan command seperti berikut</li>
+<li><p>bukalah repository dari <a target="_blank" rel="noopener" href="https://github.com/AstroNvim/AstroNvim">neovim</a></p>
+</li>
+<li><p>Lalu masukan Command seperti berikut di terminal</p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/AstroNvim/AstroNvim &quot;$env:LOCALAPPDATA\nvim&quot;</span><br></pre></td></tr></table></figure></li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code <span class="variable">$PROFILE</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>Setelah masuk di text editor kalian enter dua kali lalu masukan tulisan seperti berikut</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Import-Module -Name Terminal-Icons</span><br></pre></td></tr></table></figure>
-<p>setelah itu kalian save lalu restart terminal kalian</p>
-<p>boom jadi deh</p>
-<h2 id="Penutup"><a href="#Penutup" class="headerlink" title="Penutup"></a>Penutup</h2><p>Mungkin sebagai penutup saya ucapkan terimakasih sebesar besarnya karena sudah mau mampir di blog saya<br>kalau ada hal yang sulit di mengerti kalian boleh kok tanya tanya saya di facebook atau di whatsapp saya<br>mungkin sekian dari saya, ADIOSSSSS</p>
 
         </div>
 
@@ -309,7 +302,7 @@
                 <span class="tag">
                     
                     
-                        <a href="/tags/Customize/"># Customize</a>
+                        <a href="/tags/customize/"># customize</a>
                     
                         
                 </span>
@@ -322,8 +315,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2022/11/28/AstroVim/">Cara Memasang Neovim Sebagai Text Editor</a>
             
+            <a class="next" rel="next" href="/2022/11/25/Oh-My-Posh/">Cara Membuat Terminal Kalian Terlihat Keren</a>
             
         </section>
 
